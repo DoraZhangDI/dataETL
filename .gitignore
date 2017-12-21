@@ -10,3 +10,5 @@ conf.py
 
 # no data files
 data/*
+
+*.csv
