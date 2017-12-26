@@ -28,7 +28,7 @@ def convert2fields(tss, dfs):
 
 def timediff(a,b):
     dx = dt2ts(b)-dt2ts(a)
-    if dx > 600000:
+    if dx > 60000:
         return 1
     return 0
 
